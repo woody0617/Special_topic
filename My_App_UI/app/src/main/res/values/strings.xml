@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">FaceDog GO!</string>
+    <string name="title_activity_page2">帳號註冊</string>
+    <string name="title_activity_page3">狗狗註冊</string>
+    <string name="title_activity_page4">遺失找尋</string>
+    <string name="title_activity_page5">確認圖片</string>
+    <string name="title_activity_dog_select_1">遺失通知</string>
+    <string name="title_activity_dogloss_page_1">狗狗掛失</string>
+    <string name="title_activity_people_page_1">個人資料</string>
+    <string name="title_activity_dog_page_1">狗狗資料</string>
+    <string name="title_activity_dog_page_2_add">新增狗狗</string>
+    <string name="title_activity_homepage">首頁</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dog_page_1"
+    android:background="@drawable/bak_2">
+
+    <RelativeLayout
+        android:layout_width="357dp"
+        android:layout_height="551dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/test_1"
+            android:layout_marginBottom="162dp"
+            android:text="品種:"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="208dp"
+            android:text="年齡:"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView6"
+            android:layout_toEndOf="@+id/textView3"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/editText4"
+            android:layout_below="@+id/editText4"
+            android:background="#00000000"
+            android:text="確認修改"
+            android:textSize="24sp" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="212dp"
+            android:layout_height="39dp"
+            android:layout_alignTop="@+id/test_1"
+            android:layout_toEndOf="@+id/test_1"
+            android:textSize="24sp" />
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="215dp"
+            android:layout_height="39dp"
+            android:layout_alignTop="@+id/textView3"
+            android:layout_toEndOf="@+id/textView3"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/test_1"
+            android:layout_marginBottom="108dp"
+            android:text="特徵:"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText4"
+            android:layout_centerHorizontal="true"
+            android:background="#00000000"
+            android:text="選擇圖片"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/test_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="181dp"
+            android:background="#00000000"
+            android:text="選擇狗狗: "
+            android:textSize="24sp" />
+
+        <Spinner
+            android:id="@+id/spinner3"
+            android:layout_width="120dp"
+            android:layout_height="35dp"
+            android:layout_alignTop="@+id/textView2"
+            android:layout_toEndOf="@+id/textView3"
+            android:textSize="24sp" />
+
+        <Spinner
+            android:id="@+id/spinner4"
+            android:layout_width="95dp"
+            android:layout_height="35dp"
+            android:layout_alignEnd="@+id/spinner2"
+            android:layout_alignTop="@+id/textView2"
+            android:textSize="24sp" />
+
+        <Spinner
+            android:id="@+id/spinner5"
+            android:layout_width="95dp"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/textView2"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="242dp"
+            android:text="名字:"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/editText12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView15"
+            android:layout_toEndOf="@+id/textView3"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText4"
+            android:layout_toStartOf="@+id/spinner"
+            android:background="#00000000"
+            android:text="新增狗狗"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/txtpid"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_alignBottom="@+id/textView3"
+            android:layout_alignEnd="@+id/editText12"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/test5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/editText4"
+            android:layout_below="@+id/editText4"
+            android:text="TextView"
+            android:textSize="0sp" />
+
+        <TextView
+            android:id="@+id/textView46"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/button8"
+            android:layout_marginTop="21dp"
+            android:text="◎新增狗狗 :新增多狗"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView47"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView46"
+            android:layout_below="@+id/textView46"
+            android:text="◎選擇圖片 :為愛犬新增照片吧"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView48"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView46"
+            android:layout_below="@+id/textView47"
+            android:text="◎確認修改 :修改資料並上傳"
+            android:textSize="24sp" />
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

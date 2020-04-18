@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".page5"
+    android:background="@drawable/bak_2">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/btn_loc_y"
+            android:orientation="vertical">
+
+            <com.youth.banner.Banner
+                android:id="@+id/banner"
+                android:layout_width="match_parent"
+                android:layout_height="384dp"
+                android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0">
+
+            </com.youth.banner.Banner>
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="請問是這隻狗嗎?"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+
+
+            <TextView
+                android:id="@+id/t_loc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                tools:layout_editor_absoluteX="97dp"
+                tools:layout_editor_absoluteY="267dp" />
+
+            <TextView
+                android:id="@+id/t_ll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_loc_y"
+            android:layout_width="165dp"
+            android:layout_height="70dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="0dp"
+            android:layout_marginStart="0dp"
+            android:background="#00000000"
+            android:text="yes"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btn_loc_n"
+            android:layout_width="165dp"
+            android:layout_height="70dp"
+            android:layout_alignBottom="@+id/btn_loc_y"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="0dp"
+            android:background="#00000000"
+            android:text="no"
+            android:textSize="24sp" />
+
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>
